@@ -1,0 +1,149 @@
+[
+  {
+    "objectID": "slides.html#fault-system-geometry-is-complex",
+    "href": "slides.html#fault-system-geometry-is-complex",
+    "title": "Some aspects of understanding and modeling crustal motions",
+    "section": "Fault system geometry is complex",
+    "text": "Fault system geometry is complex\n\n\n\nWestern North America has 100,000+ km of imperfectly (look where the faults stop) mapped fault system\nFractal dimensions range from 1.1 (Okubo and Aki, 1987) to 1.6 (Hirata, 1989)\n\n\n\n\n\n\n\n\n\n\nUSGS Quaternary fault and fold database"
+  },
+  {
+    "objectID": "slides.html#fault-system-kinematics-are-countable",
+    "href": "slides.html#fault-system-kinematics-are-countable",
+    "title": "Some aspects of understanding and modeling crustal motions",
+    "section": "Fault system kinematics are countable",
+    "text": "Fault system kinematics are countable\n\n\n\\(&gt;90\\%\\) of shortening is localized on 1-5 faults at active convergent mountain belts\n\n\n\n\n\n\n\n\n\nGeology and geodesy seem to have identified the faults responsible for \\(&gt;90\\%\\) of kinematic motion in strike-slip systems \n\n\n\nMinster and Jordan, 1987; Lave and Avouac, 2001; Meade and Hager, 2005"
+  },
+  {
+    "objectID": "slides.html#modern-geodetic-observations-show-astonishing-localization",
+    "href": "slides.html#modern-geodetic-observations-show-astonishing-localization",
+    "title": "Some aspects of understanding and modeling crustal motions",
+    "section": "Modern geodetic observations show astonishing localization",
+    "text": "Modern geodetic observations show astonishing localization\n\n\n\n\n\n\n\nWright et al., 2026"
+  },
+  {
+    "objectID": "slides.html#steady-linear-mantle-flow-is-not-geodetically-detectable",
+    "href": "slides.html#steady-linear-mantle-flow-is-not-geodetically-detectable",
+    "title": "Some aspects of understanding and modeling crustal motions",
+    "section": "Steady linear mantle flow is not geodetically detectable",
+    "text": "Steady linear mantle flow is not geodetically detectable\nSteady flow in a linear* viscous mantle produces a stress at the crust-mantle interface and the elastic layer responds with strain, not strain rate\n\\[\\sigma_\\mathrm{e} = \\sigma_\\mathrm{v}\\;\\;\\; \\rightarrow \\;\\;\\;\\mu \\epsilon_\\mathrm{e} = \\eta \\frac{d\\epsilon_\\mathrm{v}}{dt}\\]\n\n…geodetic observations of interseismic deformation are insensitive to the source of the driving forces in a linear system (Savage, 2000)\n\n\n…motion in the elastic layer is decoupled from that deep within the viscous layer, and they may be very different from each other (Zatman, 2000)\n\n\nWe also demonstrate that the geodetic velocities are not related to the secular velocities at depth (Hetland and Hager, 2004)\n\n\n\n*Non-linear rheologies make this history dependent and open up the door to connections"
+  },
+  {
+    "objectID": "slides.html#some-transient-mantle-flow-is-geodetically-detectable",
+    "href": "slides.html#some-transient-mantle-flow-is-geodetically-detectable",
+    "title": "Some aspects of understanding and modeling crustal motions",
+    "section": "Some transient mantle flow is geodetically detectable",
+    "text": "Some transient mantle flow is geodetically detectable\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n1-10 year postseismic VE deformation is well documented\n~100 year postseismic VE deformation is yet to documented\nMaxwell VE rheology is incompatible with observations\nExtended linear rheologies (e.g., Burgers and Andrade) linear and many nonlinear rheologies are consistent with observations\n\n\n\n\nHetland and Hager 2005, 2006, Meade et al., 2013"
+  },
+  {
+    "objectID": "slides.html#modern-perspectives-on-friction-geodesy",
+    "href": "slides.html#modern-perspectives-on-friction-geodesy",
+    "title": "Some aspects of understanding and modeling crustal motions",
+    "section": "Modern perspectives on friction (geodesy)",
+    "text": "Modern perspectives on friction (geodesy)\nAfterslip in the “wrong” place\n\n\n\n\ninconsistent with a simple model consisting of velocity-weakening patches obeying simple rate-state friction surrounded by a velocity strengthening interface (Johnson et al., 2012)"
+  },
+  {
+    "objectID": "slides.html#modern-perspectives-on-friction-geodesy-1",
+    "href": "slides.html#modern-perspectives-on-friction-geodesy-1",
+    "title": "Some aspects of understanding and modeling crustal motions",
+    "section": "Modern perspectives on friction (geodesy)",
+    "text": "Modern perspectives on friction (geodesy)\nLittle geodetically observed surface fault creep\n\n\n\n\nPotential solution: frictional parameters are velocity/state/stress/history dependent rather than material properties"
+  },
+  {
+    "objectID": "slides.html#modern-perspectives-on-friction-laboratory",
+    "href": "slides.html#modern-perspectives-on-friction-laboratory",
+    "title": "Some aspects of understanding and modeling crustal motions",
+    "section": "Modern perspectives on friction (laboratory)",
+    "text": "Modern perspectives on friction (laboratory)\n\n\n\n\n\nWe therefore argue here that earthquake dynamics are best understood in terms of dynamic fracture mechanics and not governed by the frictional properties of faults…We finally note that any process that includes shear and normal stresses can be interpreted in terms of “friction” (Reches and Fineberg, 2023)"
+  },
+  {
+    "objectID": "slides.html#slip-displacement-stress-strain-energy-distance-scaling",
+    "href": "slides.html#slip-displacement-stress-strain-energy-distance-scaling",
+    "title": "Some aspects of understanding and modeling crustal motions",
+    "section": "Slip displacement, stress, strain energy distance scaling",
+    "text": "Slip displacement, stress, strain energy distance scaling\n\n\n\n\\[\nU_{ij} = \\frac{-1}{8\\pi(1-\\nu)r^2} \\left\\{ \\frac{\\partial r}{\\partial n} \\left[ (1-2\\nu)\\delta_{ij} + \\frac{3r_i r_j}{r^2} \\right] - (1-2\\nu)\\left[ \\frac{n_i r_j}{r} -  \\frac{n_j r_i}{r} \\right] \\right\\}\n\\]\n\n\n\n\n\n\n\n\n\n\n\n\n\nKinematics are long distance. Energy is localized."
+  },
+  {
+    "objectID": "slides.html#stress-is-non-trivial-to-calculate-in-fractured-media",
+    "href": "slides.html#stress-is-non-trivial-to-calculate-in-fractured-media",
+    "title": "Some aspects of understanding and modeling crustal motions",
+    "section": "Stress is non-trivial to calculate in fractured media",
+    "text": "Stress is non-trivial to calculate in fractured media\n\n\n\nHypersingular for Dirac delta function* point source. No known general integration method\nLinear elastic fracture mechanics (LEFM) works with weaker singularities\nStress free formulations of continuum mechanics have been developed\n\n\n\n\n\n\n\n\n\n\n*High order continuity (Mallick and Meade, 2024) and mollification (Eringen, 1977) can fix this"
+  },
+  {
+    "objectID": "slides.html#stress-and-force-as-distributions-or-computational-tools",
+    "href": "slides.html#stress-and-force-as-distributions-or-computational-tools",
+    "title": "Some aspects of understanding and modeling crustal motions",
+    "section": "Stress and force as distributions or computational tools",
+    "text": "Stress and force as distributions or computational tools\n\nStress is very difficult to measure\nDisplacement and energy are clear are clearly interpretable\n\n\n\n\n\n\n\n\nWilcek, 2004"
+  },
+  {
+    "objectID": "slides.html#the-crust-may-be-jammed-andor-mathematically-stiff",
+    "href": "slides.html#the-crust-may-be-jammed-andor-mathematically-stiff",
+    "title": "Some aspects of understanding and modeling crustal motions",
+    "section": "The crust may be jammed and/or mathematically stiff",
+    "text": "The crust may be jammed and/or mathematically stiff\n\n\n\n\n\n\n\n\n\n\n\n\nSlow loading with itermittent jumps (Anderson, 1975)\nJamming mechanics (Liu and Nagel, 1998)\nCrackling noise (Niccolini et al., 2009)\nContact dynamics (Moreau, 1999)\n\n\n\n\nSieh et al., 2008"
+  },
+  {
+    "objectID": "slides.html#a-micro-summary",
+    "href": "slides.html#a-micro-summary",
+    "title": "Some aspects of understanding and modeling crustal motions",
+    "section": "A micro summary",
+    "text": "A micro summary\n\n1000s of geologic slip rate estimates and 1m+ geodetic observations suggest that in the modern most motion is localized on an effectively countable number of faults despite fractal network geometry\n\n\n\n\n\nNo geodetically detectable relationship between crustal motions to mantle motions (for linear rheologies, unclear for non-linear)\n\n\n\n\n\nFriction may not be a primary control on failure styles\n\n\n\n\n\nStress and strain are powerful calculation tools but are often difficult to work with when there is faulting/fracture\n\n\n\n\n\nIf the crust is in a jammed state it is highly sensitive to small perturbations but geometrically constrained"
+  },
+  {
+    "objectID": "slides.html#paths-forward-kinematics-statistical-mechanics",
+    "href": "slides.html#paths-forward-kinematics-statistical-mechanics",
+    "title": "Some aspects of understanding and modeling crustal motions",
+    "section": "Paths forward: Kinematics + statistical mechanics",
+    "text": "Paths forward: Kinematics + statistical mechanics\n\n\n\nRationale for thermodynamics\n\nThe principle of the production of [motion by heat]…must be considered independently of any mechanism or…particular agent. It is necessary to establish principles applicable not only to [steam-engines] but to all imaginable [heat engines] (Carnot, 1824)\n\n\n\n\n\nRationale for faulting\n\nThe principle of the production of [fault slip] must be considered independently of any mechanism or…particular agent. It is necessary to establish principles applicable not only to [elasticity, rate/state friction] but to all imaginable [rheologies]"
+  },
+  {
+    "objectID": "slides.html#paths-forward-kinematics-statistical-mechanics-1",
+    "href": "slides.html#paths-forward-kinematics-statistical-mechanics-1",
+    "title": "Some aspects of understanding and modeling crustal motions",
+    "section": "Paths forward: Kinematics + statistical mechanics",
+    "text": "Paths forward: Kinematics + statistical mechanics\nFor earthquake and afterslip sequences:\n\nMoment budgets: A kinematic balance concept\nEmpirical scaling laws: What we can measure\nMaximum entropy: Everything else is maximally uncertain\n\n\n\n\n\n\n\n\nMeade, in review"
+  },
+  {
+    "objectID": "slides.html#paths-forward-geometry-dominated",
+    "href": "slides.html#paths-forward-geometry-dominated",
+    "title": "Some aspects of understanding and modeling crustal motions",
+    "section": "Paths forward: Geometry dominated",
+    "text": "Paths forward: Geometry dominated\n\nPlate geometries have granular coordination numbers (Anderson, 2001)\nFault geometry changes have a crustal thickness length scale (Klinger, 2010)\nEnvironmental soft matter is a statistical cube (Domokos et al., 2020)"
+  },
+  {
+    "objectID": "slides.html#paths-forward-non-linear-viscous-models",
+    "href": "slides.html#paths-forward-non-linear-viscous-models",
+    "title": "Some aspects of understanding and modeling crustal motions",
+    "section": "Paths forward: Non-linear viscous models",
+    "text": "Paths forward: Non-linear viscous models\n\nMany non-linear rheologies (e.g., power-law) create more informative systems\nPipe diffusion, \\(\\eta = f(\\sigma, \\epsilon, ...)\\) (Breithaupt et al., 2022)"
+  },
+  {
+    "objectID": "slides.html#paths-forward-discrete-element-models",
+    "href": "slides.html#paths-forward-discrete-element-models",
+    "title": "Some aspects of understanding and modeling crustal motions",
+    "section": "Paths forward: Discrete element models",
+    "text": "Paths forward: Discrete element models\n\nInertial (Cundall and Strack, 1979) and non-inertial (Kishino, 1988)\nDecide with the inertial number \\(I = \\dot{\\epsilon}d \\sqrt{\\rho / P}\\)\n\nInertial non-inertial threshold \\(I \\approx 10^{-2}\\)\nFor the Earth-like tectonics \\(I \\approx 10^{-12}\\)"
+  },
+  {
+    "objectID": "slides.html#paths-forward-contact-dynamics",
+    "href": "slides.html#paths-forward-contact-dynamics",
+    "title": "Some aspects of understanding and modeling crustal motions",
+    "section": "Paths forward: Contact dynamics",
+    "text": "Paths forward: Contact dynamics\n\nMoreau, 1987; Andrews et al., 2022\nUsed widely in animation and robotics\nNon-inertial, polygonal discrete elements, with deformable bodies\nNon-convex. Non-smooth. Geometry determines if a solution exists"
+  },
+  {
+    "objectID": "slides.html#paths-forward-neohookean-elasticity",
+    "href": "slides.html#paths-forward-neohookean-elasticity",
+    "title": "Some aspects of understanding and modeling crustal motions",
+    "section": "Paths forward: Neohookean elasticity",
+    "text": "Paths forward: Neohookean elasticity\n\nLarge deformation fractures used in animation and surgery simulations\nEmperical relationships to micromechanical properties\n\n\n\n\n\n\n\n\nsofa-framework.org"
+  },
+  {
+    "objectID": "slides.html#paths-forward",
+    "href": "slides.html#paths-forward",
+    "title": "Some aspects of understanding and modeling crustal motions",
+    "section": "Paths forward",
+    "text": "Paths forward\n\nFracture/fault first models address primary crustal observables\n\n\n\n\n\nThe evolution of fault system geometry may be a combination of historical contingency, geometric constraints, and non-monotonic fracture evolution\n\n\n\n\n\nFrontiers and needs:\n\nNon-signular fracture mechanics and energy focused models\nNew thinking about “material properties”\nModels that explain observations of jammed and stiff motion (little creep, neglible long-term transients)\nNon-linear (constraints and/or geometry and/or rheology) and sampled models"
+  }
+]
