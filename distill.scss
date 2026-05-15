@@ -1,0 +1,276 @@
+/*-- scss:defaults --*/
+
+// ──────────────────────────────────────────────────────────
+// distill.scss — an editorial, distill.pub-style Quarto theme
+// Serif body · sans headings · restrained palette · thin rules
+// ──────────────────────────────────────────────────────────
+
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+
+// Fonts
+$font-family-sans-serif: "Inter", -apple-system, BlinkMacSystemFont, sans-serif !default;
+$font-family-serif:      "Crimson Pro", Georgia, "Times New Roman", serif !default;
+$font-family-monospace:  "JetBrains Mono", "SF Mono", Menlo, monospace !default;
+
+// Palette — distill's warm off-white + rust accent
+$body-bg:       #ffffff !default;
+$body-color:    #1a1a1a !default;
+$text-muted:    #6b6b6b !default;
+$link-color:    #ae2012 !default;  // muted rust, distill's editorial accent
+$selection-bg:  #ffe69c !default;
+$border-color:  #e5e3db !default;
+$code-block-bg: #f7f5ee !default;
+
+// Typography — reveal-specific vars
+$presentation-font-family:         $font-family-serif;
+$presentation-font-size-root:      28px !default;
+$presentation-h1-font-size:        2.2em !default;
+$presentation-h2-font-size:        1.5em !default;
+$presentation-h3-font-size:        1.2em !default;
+$presentation-heading-font:        $font-family-serif;
+$presentation-heading-color:       #1a1a1a !default;
+$presentation-heading-font-weight: 600 !default;
+$presentation-heading-letter-spacing: -0.015em !default;
+$presentation-line-height:         1.55 !default;
+
+/*-- scss:rules --*/
+
+// Start title
+// Title slide — fully left-aligned (override Quarto's flex centering)
+.reveal .slide.quarto-title-block.title-slide,
+.reveal section.title-slide,
+.reveal .title-slide {
+  align-items: flex-start !important;
+  justify-content: flex-start !important;
+  text-align: left !important;
+}
+
+.reveal .title-slide > *,
+.reveal .title-slide .quarto-title-block > *,
+.reveal .title-slide .quarto-title-authors,
+.reveal .title-slide .quarto-title-author,
+.reveal .title-slide .quarto-title-author-name,
+.reveal .title-slide .quarto-title-affiliation,
+.reveal .title-slide .quarto-title-author-email,
+.reveal .title-slide .date,
+.reveal .title-slide .subtitle,
+.reveal .title-slide h1.title,
+.reveal .title-slide .title {
+  text-align: left !important;
+  margin-left: 0 !important;
+  margin-right: auto !important;
+  width: 100%;
+}
+
+.reveal .title-slide .quarto-title-authors {
+  display: block !important;
+  justify-content: flex-start !important;
+}
+
+.reveal .title-slide h1.title {
+  font-size: 2.4em;
+  line-height: 1.15;
+  margin-bottom: 0.25em;
+}
+.reveal .quarto-title-author-name {
+  font-family: $font-family-serif;
+  font-weight: 500;
+  font-size: 0.85em;
+}
+.reveal .quarto-title-affiliation,
+.reveal .quarto-title-author-email,
+.reveal .date {
+  font-family: $font-family-serif;
+  font-size: 0.65em;
+  font-style: italic;
+  color: $text-muted;
+  letter-spacing: 0.01em;
+}
+
+
+// End title
+
+
+.reveal {
+  font-family: $font-family-serif;
+  font-feature-settings: "kern", "liga", "onum"; // oldstyle figures
+  letter-spacing: -0.003em;
+}
+
+.reveal .slides {
+  text-align: left;
+}
+
+// Headings — serif, tight, understated
+.reveal h1, .reveal h2, .reveal h3, .reveal h4 {
+  font-family: $font-family-serif;
+  text-transform: none;
+  letter-spacing: -0.005em;
+  margin-bottom: 0.5em;
+  font-weight: 600;
+}
+
+// Slide title with hairline rule below (distill signature)
+.reveal h2 {
+  border-bottom: 2px solid $body-color;
+  padding-bottom: 0.25em;
+  margin-bottom: 0.6em;
+}
+
+.reveal .subtitle {
+  font-family: $font-family-serif;
+  font-size: 0.75em;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: $text-muted;
+  font-weight: 500;
+}
+
+// Title slide
+.reveal .title-slide { text-align: left; }
+.reveal .title-slide h1.title {
+  font-size: 2.4em;
+  line-height: 1.15;
+  margin-bottom: 0.25em;
+}
+.reveal .quarto-title-author-name {
+  font-family: $font-family-serif;
+  font-weight: 500;
+  font-size: 0.85em;
+}
+.reveal .quarto-title-affiliation,
+.reveal .quarto-title-author-email,
+.reveal .date {
+  font-family: $font-family-serif;
+  font-size: 0.65em;
+  font-style: italic;
+  color: $text-muted;
+  letter-spacing: 0.01em;
+}
+
+// Links — subtle underline, distill style
+.reveal a {
+  color: $link-color;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(174, 32, 18, 0.3);
+  transition: border-color 0.2s;
+}
+.reveal a:hover { border-bottom-color: $link-color; }
+
+// Inline code
+.reveal code {
+  font-family: $font-family-monospace;
+  font-size: 0.82em;
+  background: $code-block-bg;
+  padding: 0.08em 0.35em;
+  border-radius: 3px;
+}
+
+// Code blocks — left rule, no heavy box
+.reveal pre {
+  box-shadow: none;
+  border: none;
+  background: transparent;
+}
+.reveal pre code {
+  background: $code-block-bg;
+  padding: 1em 1.2em;
+  border-left: 3px solid $border-color;
+  border-radius: 0;
+  font-size: 0.7em;
+  line-height: 1.5;
+}
+
+// Blockquote — editorial pull-quote
+.reveal blockquote {
+  background: transparent;
+  border-left: 3px solid $link-color;
+  padding: 0.3em 1.2em;
+  font-style: italic;
+  color: $text-muted;
+  box-shadow: none;
+}
+
+// Figure captions — small italic serif, classical
+.reveal figcaption,
+.reveal .figure-caption,
+.reveal .caption {
+  font-family: $font-family-serif;
+  font-size: 0.6em;
+  font-style: italic;
+  color: $text-muted;
+  text-align: left;
+  margin-top: 0.5em;
+}
+
+// Tables — top/bottom rules only, distill-classic, serif body
+.reveal table {
+  border-top: 1.5px solid $body-color;
+  border-bottom: 1.5px solid $body-color;
+  border-collapse: collapse;
+  font-family: $font-family-serif;
+  font-size: 0.75em;
+}
+.reveal table th {
+  border-bottom: 1px solid $body-color;
+  padding: 0.35em 0.9em;
+  font-weight: 600;
+  font-style: italic;
+  text-align: left;
+}
+.reveal table td {
+  padding: 0.3em 0.9em;
+  border: none;
+}
+
+// Math — lets KaTeX/MathJax inherit the serif body naturally
+.reveal .math { font-feature-settings: normal; }
+
+// Chrome — minimal
+.reveal .slide-number {
+  font-family: $font-family-serif;
+  color: $text-muted;
+  background: transparent;
+  font-size: 0.5em;
+  font-style: italic;
+}
+.reveal .progress {
+  height: 2px;
+  color: $link-color;
+}
+
+// Remove extra space around quotes
+.reveal .slide blockquote {
+  border-left: 4px solid #b22222;
+  margin: 0;
+  padding: 0 0 0 1em;
+}
+
+
+// Larger callouts
+.reveal .slide div.callout,
+.reveal .slide div.callout * {
+  font-size: 1.0em !important;
+}
+
+// Lists — tight
+.reveal ul, .reveal ol { margin-left: 0.5em; }
+.reveal li { margin-bottom: 0.25em; }
+
+.reveal hr {
+  border: none;
+  border-top: 1px solid $border-color;
+  margin: 1em 0;
+}
+
+.reveal strong { font-weight: 600; }
+.reveal em     { font-style: italic; }
+
+// Section title slides — restrained
+.reveal .title-slide .subtitle,
+.reveal section[data-background-color] h2 {
+  font-family: $font-family-serif;
+}
+
+// Selection
+::selection { background: $selection-bg; }
