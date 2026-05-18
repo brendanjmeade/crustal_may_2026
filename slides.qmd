@@ -327,7 +327,7 @@ _Meade_, in review
 <div style="height: 0.25em;"></div>
 
 - Frontiers and needs:
-  - Non-signular fracture mechanics and energy focused models
+  - Non-singular fracture mechanics and energy focused models
   - New thinking about "material properties"
   - Models that explain observations of jammed and stiff motion (little creep, neglible long-term transients)
   - Non-linear (constraints and/or geometry and/or rheology) and sampled models
